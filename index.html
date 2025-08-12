@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aiden Loxton — Portfolio</title>
+  <meta name="description" content="Unity/XR developer portfolio and projects." />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <header class="container">
+    <nav>
+      <a class="logo" href="/">Aiden</a>
+      <button id="menu-btn" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul id="nav-links" class="nav">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Unity/XR Developer</h1>
+    <p>Building immersive interactions, systems, and tools.</p>
+    <a class="btn" href="#work">See projects</a>
+  </header>
+
+  <main class="container">
+    <section id="work">
+      <h2>Selected Work</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="images/project1.jpg" alt="Wizards Inc VR scene" />
+          <h3>Wizards Inc (VR)</h3>
+          <p>Object pooling, safe-path gen, forging minigames.</p>
+          <a href="#" class="btn-secondary">Case study</a>
+        </article>
+        <!-- Duplicate article blocks for more projects -->
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>I build performant XR systems: object pooling, path mgmt, and interaction design.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form name="contact" method="post">
+        <label>Name <input name="name" required></label>
+        <label>Email <input name="email" type="email" required></label>
+        <label>Message <textarea name="message" rows="5" required></textarea></label>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container">
+    <small>© <span id="year"></span> Aiden Loxton</small>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

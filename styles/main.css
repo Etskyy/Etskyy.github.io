@@ -1,0 +1,35 @@
+:root { --max: 1100px; --pad: 1rem; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Arial; }
+.container { max-width: var(--max); margin: 0 auto; padding: 0 var(--pad); }
+
+header { padding: 5rem 0 3rem; text-align: center; }
+nav { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.logo { font-weight: 800; text-decoration: none; color: inherit; }
+#menu-btn { display: none; }
+
+.nav { display: flex; list-style: none; gap: 1rem; margin: 0; padding: 0; }
+.nav a { text-decoration: none; color: inherit; }
+
+h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 1rem 0; }
+h2 { margin-top: 3rem; }
+
+.btn, .btn-secondary {
+  display: inline-block; padding: .7rem 1rem; border-radius: .5rem; text-decoration: none;
+}
+.btn { background: black; color: white; }
+.btn-secondary { border: 1px solid #ccc; color: inherit; }
+
+.grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.card { border: 1px solid #eee; border-radius: .75rem; overflow: hidden; padding-bottom: 1rem; }
+.card img { width: 100%; height: 180px; object-fit: cover; display: block; }
+form label { display: block; margin: .5rem 0; }
+input, textarea { width: 100%; padding: .6rem; border: 1px solid #ccc; border-radius: .5rem; }
+footer { padding: 2rem 0; text-align: center; color: #555; border-top: 1px solid #eee; }
+
+/* Small screens nav */
+@media (max-width: 720px) {
+  #menu-btn { display: inline-block; }
+  .nav { display: none; flex-direction: column; text-align: right; }
+  .nav.open { display: flex; }
+}
