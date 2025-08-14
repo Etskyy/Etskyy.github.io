@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>All Work — Aiden Loxton</title>
+  <meta name="description" content="All projects displayed one at a time." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css" />
+    <style>
+    body {
+      background: url('images/bg.gif') no-repeat center center fixed;
+      background-size: cover;
+      background-color:#201F3F;
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav"><div class="container nav-inner">
+      <div class="left-group">
+        <a class="logo" href="index.html">Aiden Loxton</a>
+      </div>
+      <div class="right-group">
+          <ul id="nav-links" class="nav-links">
+            <li><a class="nav-link" href="work.html">Work</a></li>
+            <li><a class="nav-link" href="index.html#about">About</a></li>
+            <li><a class="nav-link" href="index.html#contact">Contact</a></li>
+          </ul>
+      </div>
+    </div></nav>
+    <div class="nav-spacer"></div>
+<section class="work-banner" style="text-align:center; padding:4rem 2rem; background:rgba(12,20,30,0.85); color:white; border-radius: 0 0 1rem 1rem; box-shadow: 0 8px 30px rgba(0,0,0,0.35);">
+  <h1>My Work</h1>
+  <p>Browse through my projects by category or search to find specific work.</p>
+</section>
+
+  </header>
+
+  <main id="main">
+    <section class="banner container">
+      <div>
+        <h1>Work</h1>
+        <p>Case studies, tools, and experiments.</p>
+      </div>
+    </section>
+    <section class="section container">
+      
+<div class="section-head">
+  <div style="flex:1;">
+    <input type="text" id="search" placeholder="Search projects..." 
+           style="width:100%;padding:.5rem;border-radius:.5rem;
+           border:1px solid var(--line);background:#0d0e12;color:var(--text);" />
+  </div>
+  <div class="work-controls">
+    <div class="select-wrap">
+      <label for="sort" style="display:block;font-size:.9rem;color:var(--muted);">Sort by</label>
+      <select id="sort" style="width:100%;padding:.4rem .5rem;border-radius:.5rem;background:#0d0e12;border:1px solid var(--line);color:var(--text);">
+        <option value="newest">Newest First</option>
+        <option value="oldest">Oldest First</option>
+        <option value="type">Type (A→Z)</option>
+      </select>
+    </div>
+  </div>
+</div>
+<div id="work-stack">
+
+        <!-- Wizards Inc -->
+        <section class="project-section" data-date="2025-05-01" data-type="Game">
+          <div class="project-inner">
+            <div class="project-media">
+              <img src="images/project-wizards.jpg" alt="Wizards Inc VR scene" loading="lazy" />
+            </div>
+            <div class="project-info">
+              <h3>Wizards Inc (VR)</h3>
+              <p>XR crafting & systems: object pooling, safe-path generation, forging minigames.</p>
+              <ul class="project-tags"><li>Game</li><li>Unity</li><li>XR</li></ul>
+              <div class="project-meta">
+                <div><strong>Date:</strong> May 2025</div>
+                <div><strong>Type:</strong> Game</div>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="btn small">Case study</a>
+                <a href="#" class="btn small ghost">Demo</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Near/Far Interactor+ -->
+        <section class="project-section" data-date="2025-03-10" data-type="Program">
+          <div class="project-inner">
+            <div class="project-media">
+              <img src="images/project-collab.jpg" alt="Near/Far Interactor+ demo" loading="lazy" />
+            </div>
+            <div class="project-info">
+              <h3>Near/Far Interactor+</h3>
+              <p>Custom XR interactor with configurable far-distance and haptics.</p>
+              <ul class="project-tags"><li>Program</li><li>Toolkit</li></ul>
+              <div class="project-meta">
+                <div><strong>Date:</strong> Mar 2025</div>
+                <div><strong>Type:</strong> Program</div>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="btn small">Read more</a>
+                <a href="#" class="btn small ghost">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- GlobalPathManager -->
+        <section class="project-section" data-date="2024-11-20" data-type="Program">
+          <div class="project-inner">
+            <div class="project-media">
+              <img src="images/project-paths.jpg" alt="GlobalPathManager visualization" loading="lazy" />
+            </div>
+            <div class="project-info">
+              <h3>GlobalPathManager</h3>
+              <p>Deterministic safe-lane generation and obstacle orchestration at scale.</p>
+              <ul class="project-tags"><li>Systems</li><li>Program</li></ul>
+              <div class="project-meta">
+                <div><strong>Date:</strong> Nov 2024</div>
+                <div><strong>Type:</strong> Program</div>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="btn small">Deep dive</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Model example -->
+        <section class="project-section" data-date="2024-08-05" data-type="Model">
+          <div class="project-inner">
+            <div class="project-media">
+              <img src="images/project-model.jpg" alt="Low-Poly Ocean Pack" loading="lazy" />
+            </div>
+            <div class="project-info">
+              <h3>Low-Poly Ocean Pack</h3>
+              <p>Optimized fish, seaweed, and terrain set for mobile VR.</p>
+              <ul class="project-tags"><li>Model</li><li>3D</li></ul>
+              <div class="project-meta">
+                <div><strong>Date:</strong> Aug 2024</div>
+                <div><strong>Type:</strong> Model</div>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="btn small">Gallery</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container site-footer">
+    <small>© <span id="year"></span> Aiden Loxton</small>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
