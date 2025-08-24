@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aiden Loxton</title>
+  <meta name="description" content="Game Designer portfolio and projects." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css" />
+  <style>
+    body {
+      background: url('images/bg.gif') no-repeat center center fixed;
+      background-size: cover;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav"><div class="container nav-inner">
+      <div class="left-group">
+        <a class="logo" href="index.html">
+          <img src="images/icon.png" alt="Etsky Productions Logo" class="logo-icon">
+          Aiden Loxton
+        </a>
+      </div>
+      <div class="right-group">
+        <ul id="nav-links" class="nav-links">
+          <li><a class="nav-link" href="work.html">Work</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div></nav>
+    <div class="nav-spacer"></div>
+
+    <section class="container hero" id="home">
+      <div class="hero-text">
+        <h1><span class="accent">Game</span> Developer</h1>
+        <p class="lede">I build immersive interactions, performant systems, and design unique games. Recently: object pooling frameworks, safe‑path generation, and forging minigames.</p>
+        <div class="cta-row">
+          <a class="btn" href="work.html">See projects</a>
+          <a class="btn ghost" href="#contact">Get in touch</a>
+        </div>
+        <ul class="meta">
+          <li>Based in Brisbane</li>
+          <li>Unity 6 • C#</li>
+        </ul>
+      </div>
+      <div class="hero-art">
+        <div class="avatar-ring">
+          <img src="images/profile.png" alt="Portrait of Aiden Loxton" loading="lazy" />
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main id="main">
+    <section id="work" class="section container">
+      <div class="section-head">
+        <h2>Featured Work</h2>
+        <p class="section-sub">Shipped and in‑progress projects. Tap for details.</p>
+      </div>
+
+      <div class="grid">
+
+        <!-- Necro Ascent -->
+        <article class="card project">
+          <img class="card-media" src="images/project-necroascent.png" alt="Necro Ascent Scene" loading="lazy" />
+          <div class="card-body">
+            <h3>Necro Ascent</h3>
+            <p>Single player dungeon crawler where the player uses various weapon abilities to defeat the AI enemies in a struggle to push through the dungeon.</p>
+
+            <div class="card-footer">
+              <ul class="project-tags">
+                <li class="tagbtn">Game</li><li class="tagbtn">Unity</li><li class="tagbtn">FPS</li>
+              </ul>
+              <div class="card-actions">
+                <a href="necroascent.html" class="btn small">Read more</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Turtle Warriors -->
+        <article class="card project">
+          <img class="card-media" src="images/turtlewarriors.png" alt="Turtle Warriors scene" loading="lazy" />
+          <div class="card-body">
+            <h3>Turtle Warriors</h3>
+            <p>Third person educational turtle game that takes you through the life struggles sea turtles face. Play facinating minigames exploring the early childhood and adult life of a sea turtle.</p>
+
+            <div class="card-footer">
+              <ul class="project-tags">
+                <li class="tagbtn">Game</li><li class="tagbtn">Unity</li><li class="tagbtn">Adventure</li><li class="tagbtn">Minigames</li>
+              </ul>
+              <div class="card-actions">
+                <a href="turtlewarriors.html" class="btn small">Read more</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- VR Project -->
+        <article class="card project">
+          <img class="card-media" src="images/wizardsinc.png" alt="Wizards Inc VR scene" loading="lazy" />
+          <div class="card-body">
+            <h3>Wizards Inc</h3>
+            <p>VR Job game simulating an office job with a twist. You have elemental powers.</p>
+
+            <div class="card-footer">
+              <ul class="project-tags">
+                <li class="tagbtn">Game</li><li class="tagbtn">Unity</li><li class="tagbtn">VR</li>
+              </ul>
+              <div class="card-actions">
+                <a href="wizardsinc.html" class="btn small">Read more</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-head">
+        <h2>About</h2>
+      </div>
+      <div class="about-wrap">
+        <p>I’m Aiden, a game dev focused on reliable systems and smooth interactions. I enjoy creating projects from the ground up working on the systems and interactions.<br><a href=https://docs.google.com/document/d/1brmtLhX2PgMt9ftMTUZ3X0u4nf3UZZ6a/edit?usp=sharing&ouid=115442273718313761544&rtpof=true&sd=true target="_blank" rel="noopener">Resume</a></p>
+        <ul class="bullets">
+          <li>Comfortable across design, programming, and production.</li>
+          <li>Clean, commented code. Playable builds early.</li>
+          <li>Tooling: custom inspectors, gizmos, automated level setups.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p class="section-sub">Have a project, role, or question? Let’s chat.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form name="contact" method="post" class="card form" action="https://formspree.io/f/mldwrbeq" method="POST">
+          <label>Name <input name="name" required></label>
+          <label>Email <input name="email" type="email" required></label>
+          <label>Message <textarea name="message" rows="5" required></textarea></label>
+          <button type="submit" class="btn">Send</button>
+          <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;" aria-hidden="true">
+  <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+</form>
+
+        <aside class="card socials">
+          <h3>Elsewhere</h3>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/aiden-loxton-b24561241/" rel="me">LinkedIn</a></li>
+          </ul>
+          <p class="note">Prefer email? <a href="mailto:loxton.aiden@gmail.com">loxton.aiden@gmail.com</a></p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container site-footer">
+    <small>© <span id="year"></span> Aiden Loxton</small>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

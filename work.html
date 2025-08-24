@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>All Work — Aiden Loxton</title>
+  <meta name="description" content="All projects displayed one at a time." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css" />
+  <style>
+    body {
+      background: url('images/bg.gif') no-repeat center center fixed;
+      background-size: cover;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav"><div class="container nav-inner">
+      <div class="left-group">
+        <a class="logo" href="index.html">
+          <img src="images/icon.png" alt="Etsky Productions Logo" class="logo-icon">
+          Aiden Loxton
+        </a>
+      </div>
+      <div class="right-group">
+        <ul id="nav-links" class="nav-links">
+          <li><a class="nav-link" href="work.html">Work</a></li>
+          <li><a class="nav-link" href="index.html#about">About</a></li>
+          <li><a class="nav-link" href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div></nav>
+    <div class="nav-spacer"></div>
+
+    <section class="work-banner" style="text-align:center; padding:4rem 2rem; background:rgba(20,20,20,0.85); color:white; border-radius: 0 0 1rem 1rem; box-shadow: 0 8px 30px rgba(0,0,0,0.35);">
+      <h1>My Work</h1>
+      <p>Browse through my projects by category or search to find specific work.</p>
+    </section>
+  </header>
+
+  <main id="main">
+    <section class="section container">
+      <div class="section-head" style="gap:1rem;">
+        <div style="flex:1;">
+          <input type="text" id="search" placeholder="Search projects..." 
+            style="width:100%;padding:.5rem;border-radius:.5rem;border:1px solid var(--line);background:rgba(20,20,20,.95);color:var(--text);" />
+        </div>
+        <div class="work-controls" style="display:flex; gap:1rem;">
+          <div class="select-wrap">
+            <label for="sort" style="display:block;font-size:.9rem;color:var(--muted);">Sort by</label>
+            <select id="sort" style="padding:.4rem .5rem;border-radius:.5rem;background:rgba(20,20,20,.95);border:1px solid var(--line);color:var(--text);">
+              <option value="newest">Newest First</option>
+              <option value="oldest">Oldest First</option>
+              <option value="type">Type (A→Z)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div id="work-stack">
+
+        <!-- Necro Ascent -->
+        <section class="project-section" data-date="2024-06-01" data-type="Game">
+          <div class="project-inner">
+            <div class="project-media">
+              <img src="images/project-necroascent.png" alt="Necro Ascent Scene" loading="lazy" />
+            </div>
+            <div class="project-info">
+              <h3>Necro Ascent</h3>
+              <p>Single player dungeon crawler where the player uses various weapon abilities to defeat the AI enemies in a struggle to push through the dungeon.</p>
+
+              <div class="project-details">
+                <div><strong>Date:</strong> June 2024</div>
+                <div><strong>Type:</strong> Game</div>
+              </div>
+
+              <div class="project-footer">
+                <ul class="project-tags"><li class="tagbtn">Game</li><li class="tagbtn">Unity</li><li class="tagbtn">FPS</li></ul>
+                <div class="project-actions">
+                  <a href="necroascent.html" class="btn small">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Turtle Warrior -->
+        <section class="project-section" data-date="2025-08-01" data-type="Game">
+          <div class="project-inner">
+            <div class="project-media">
+              <img src="images/turtlewarriors.png" alt="Turtle Warriors Scene" loading="lazy" />
+            </div>
+            <div class="project-info">
+              <h3>Turtle Warriors</h3>
+              <p>Third person educational turtle game that takes you through the life struggles sea turtles face. Play facinating minigames exploring the early childhood and adult life of a sea turtle.</p>
+
+              <div class="project-details">
+                <div><strong>Date:</strong> June 2025</div>
+                <div><strong>Type:</strong> Game</div>
+              </div>
+
+              <div class="project-footer">
+                <ul class="project-tags"><li class="tagbtn">Game</li><li class="tagbtn">Unity</li><li class="tagbtn">Adventure</li><li class="tagbtn">Minigames</li></ul>
+                <div class="project-actions">
+                  <a href="turtlewarriors.html" class="btn small">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Wizards Inc -->
+        <section class="project-section" data-date="2025-06-01" data-type="Game">
+          <div class="project-inner">
+            <div class="project-media">
+              <img src="images/wizardsinc.png" alt="Wizards Inc Scene" loading="lazy" />
+            </div>
+            <div class="project-info">
+              <h3>Wizards Inc</h3>
+              <p>VR Job game simulating an office job with a twist. You have elemental powers.</p>
+
+              <div class="project-details">
+                <div><strong>Date:</strong> June 2025</div>
+                <div><strong>Type:</strong> Game</div>
+              </div>
+
+              <div class="project-footer">
+                <ul class="project-tags"><li class="tagbtn">Game</li><li class="tagbtn">Unity</li><li class="tagbtn">VR</li></ul>
+                <div class="project-actions">
+                  <a href="wizardsinc.html" class="btn small">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="container site-footer">
+    <small>© <span id="year"></span> Aiden Loxton</small>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

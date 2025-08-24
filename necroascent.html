@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Necro Ascent — Aiden Loxton</title>
+  <meta name="description" content="Necro Ascent — single project page with details, links, and gallery." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css" />
+  <style>
+    body {
+      background: url('images/bg.gif') no-repeat center center fixed;
+      background-size: cover;
+    }
+    .work-banner h1 { margin: 0 0 .25rem; }
+    .project-hero {
+      display: grid; grid-template-columns: 1.4fr .8fr; gap: 1rem;
+      background: rgba(20,20,20,0.85);
+      border-radius: 1rem;
+      padding: 1.2rem;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+    }
+    .project-hero img {
+      width: 100%; height: 100%; object-fit: cover; border-radius: .75rem;
+      border: 1px solid var(--line);
+      background: rgba(40,40,40,.95);
+    }
+    .project-meta { color: var(--muted); display: grid; gap: .5rem; }
+    .project-meta strong { color: var(--text); }
+    .section-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 1rem;
+      box-shadow: var(--shadow);
+      padding: 1.2rem;
+    }
+    .gallery-grid {
+      display: grid;
+      gap: .75rem;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .gallery-grid img {
+      width: 100%; height: 160px; object-fit: cover; border-radius: .6rem; border: 1px solid var(--line);
+      background: rgba(40,40,40,.95);
+    }
+    @media (max-width: 900px) {
+      .project-hero { grid-template-columns: 1fr; }
+    }
+  </style>
+  <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav"><div class="container nav-inner">
+      <div class="left-group">
+        <a class="logo" href="index.html">
+          <img src="images/icon.png" alt="Etsky Productions Logo" class="logo-icon zoomable">
+          Aiden Loxton
+        </a>
+      </div>
+      <div class="right-group">
+        <ul id="nav-links" class="nav-links">
+          <li><a class="nav-link" href="work.html">Work</a></li>
+          <li><a class="nav-link" href="index.html#about">About</a></li>
+          <li><a class="nav-link" href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div></nav>
+    <div class="nav-spacer"></div>
+
+    <section class="work-banner" style="text-align:center; padding:3rem 2rem; background:rgba(20,20,20,0.85); color:white; border-radius: 0 0 1rem 1rem; box-shadow: 0 8px 30px rgba(0,0,0,0.35);">
+      <h1>Necro Ascent</h1>
+      <p>Single‑player dungeon crawler — weapons, abilities, and crunchy AI combat.</p>
+    </section>
+  </header>
+
+  <main id="main">
+    <section class="section container">
+      <div class="project-hero">
+        <img src="images/project-necroascent.png" alt="Necro Ascent key art" loading="lazy" / class="zoomable">
+        <div>
+          <h2>Necro Ascent</h2>
+          <div class="project-meta">
+            <div><strong><a href=https://alexwillbeabletocode.itch.io/necro-as target="_blank" rel="noopener">Link To Project</a></strong></div>
+            <div><strong>Released:</strong> June 2024</div>
+            <div><strong>Type:</strong> Game</div>
+            <div>
+              <strong>Tags:</strong>
+              <ul class="project-tags" style="margin-top:.4rem;">
+                <li class="tagbtn">Game</li>
+                <li class="tagbtn">Unity</li>
+                <li class="tagbtn">FPS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-head">
+        <h2>About</h2>
+        <p class="section-sub">Project overview & goals</p>
+      </div>
+      <div class="section-card">
+        <p>Single player dungeon crawler where the player uses various weapon abilities to defeat AI enemies and push through each floor. This page keeps the same visual system as <code>work.html</code> but focuses on a single project.</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-head">
+        <h2>Worked On</h2>
+        <p class="section-sub">My contributions</p>
+      </div>
+      <div class="section-card">
+        <ul class="bullets">
+          <li>World Building and Level Design. I worked on creating the first level</li>
+          <li>Systems: Building and Grid Layout, level transitioning, performance profiling.</li>
+          <li>UI interactions</li>
+          <li>Weapon and Health Balancing</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-head">
+        <h2>Gallery</h2>
+        <p class="section-sub">Screens & clips</p>
+      </div>
+      <div class="section-card">
+        <div class="gallery-grid">
+          <img src="images/necroascent_1.png" alt="Necro Ascent screenshot 1" loading="lazy" / class="zoomable">
+          <img src="images/necroascent_2.jpg" alt="Necro Ascent screenshot 2" loading="lazy" / class="zoomable">
+          <img src="images/necroascent_3.jpg" alt="Necro Ascent screenshot 3" loading="lazy" / class="zoomable">
+          <img src="images/necroascent_4.jpg" alt="Necro Ascent screenshot 4" loading="lazy" / class="zoomable">
+          <img src="images/necroascent_5.jpg" alt="Necro Ascent screenshot 5" loading="lazy" / class="zoomable">
+          <img src="images/necroascent_6.jpg" alt="Necro Ascent screenshot 6" loading="lazy" / class="zoomable">
+          <img src="images/necroascent_7.jpg" alt="Necro Ascent screenshot 7" loading="lazy" / class="zoomable">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container site-footer">
+    <small>© <span id="year"></span> Aiden Loxton</small>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" aria-modal="true" role="dialog">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <img class="lightbox-content zoomable" id="lightbox-img" alt="Expanded gallery image">
+  </div>
+
+
+  <script>
+  (function(){
+    function ready(fn){ if(document.readyState!=='loading'){ fn(); } else { document.addEventListener('DOMContentLoaded', fn); } }
+    ready(function(){
+      var lb = document.getElementById('lightbox');
+      var lbImg = document.getElementById('lightbox-img');
+      var closeBtn = document.querySelector('.lightbox-close');
+      if(!lb || !lbImg) return;
+      document.querySelectorAll('.gallery-grid img').forEach(function(img){
+        img.addEventListener('click', function(){
+          lb.classList.add('open');
+          lbImg.src = img.src;
+          lbImg.alt = img.alt || 'Gallery image';
+        });
+      });
+      var close = function(){ lb.classList.remove('open'); };
+      if (closeBtn) closeBtn.addEventListener('click', close);
+      lb.addEventListener('click', function(e){ if (e.target === lb) close(); });
+      document.addEventListener('keydown', function(e){ if (e.key === 'Escape') close(); });
+    });
+  })();
+  </script>
+</body>
+</html>
