@@ -1,0 +1,88 @@
+[
+  {
+    "id": "necro-ascent",
+    "title": "Necro Ascent",
+    "date": "2024-06-01",
+    "type": "Game",
+    "description": "Single player dungeon crawler where the player uses various weapon abilities to defeat the AI enemies in a struggle to push through the dungeon.",
+    "image": "images/project-necroascent.jpg",
+    "imageAlt": "Necro Ascent Scene",
+    "tags": [
+      "Game",
+      "Unity",
+      "FPS"
+    ],
+    "actions": [
+      {
+        "label": "Demo",
+        "href": "#",
+        "style": "primary"
+      }
+    ]
+  },
+  {
+    "id": "near-far-interactor-plus",
+    "title": "Near/Far Interactor+",
+    "date": "2025-03-10",
+    "type": "Program",
+    "description": "Custom XR interactor with configurable far\u2011distance and haptics.",
+    "image": "images/project-collab.jpg",
+    "imageAlt": "Near/Far Interactor+ demo",
+    "tags": [
+      "Program",
+      "Toolkit"
+    ],
+    "actions": [
+      {
+        "label": "Read more",
+        "href": "#",
+        "style": "primary"
+      },
+      {
+        "label": "GitHub",
+        "href": "#",
+        "style": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "global-path-manager",
+    "title": "GlobalPathManager",
+    "date": "2024-11-20",
+    "type": "Program",
+    "description": "Deterministic safe\u2011lane generation and obstacle orchestration at scale.",
+    "image": "images/project-paths.jpg",
+    "imageAlt": "GlobalPathManager visualization",
+    "tags": [
+      "Systems",
+      "Program"
+    ],
+    "actions": [
+      {
+        "label": "Deep dive",
+        "href": "#",
+        "style": "primary"
+      }
+    ]
+  },
+  {
+    "id": "low-poly-ocean-pack",
+    "title": "Low-Poly Ocean Pack",
+    "date": "2024-08-05",
+    "type": "Model",
+    "description": "Optimized fish, seaweed, and terrain set for mobile VR.",
+    "image": "images/project-model.jpg",
+    "imageAlt": "Low-Poly Ocean Pack",
+    "tags": [
+      "Model",
+      "3D"
+    ],
+    "actions": [
+      {
+        "label": "Gallery",
+        "href": "#",
+        "style": "primary"
+      }
+    ]
+  }
+]
